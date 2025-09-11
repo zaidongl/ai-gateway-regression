@@ -1,0 +1,25 @@
+{
+  "config": {
+    "allow_all_conversation_history": false,
+    "allow_patterns": [],
+    "deny_patterns": [
+      "\\b(fuck|bitch|suck|sucks)\\b"
+    ],
+    "genai_category": "text/generation",
+    "llm_format": "openai",
+    "match_all_roles": false,
+    "max_request_body_size": 8192
+  },
+  "enabled": true,
+  "id": "782db692-d9ff-418f-b842-00fb503ec73c",
+  "name": "ai-prompt-guard",
+  "protocols": [
+    "grpc",
+    "grpcs",
+    "http",
+    "https"
+  ],
+  "route": {
+    "id": "165f4271-b47e-4676-b87d-e521966d0c87"
+  }
+}

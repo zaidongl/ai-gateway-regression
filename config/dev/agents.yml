@@ -1,0 +1,11 @@
+- !ai.gateway.regression.config.RestAgentConfig
+    name: GatewayRestAgent
+    requestAuth:
+      !ai.gateway.regression.auth.BearerToken
+        token: your_token_here # Replace with your actual token
+    baseUrl: http://localhost:8000 # Base URL for the API, default: http://localhost:8080
+
+- !ai.gateway.regression.config.WebBrowserAgentConfig
+    name: GatewayWebAgent
+    headless: true # Whether to run the browser in headless mode, default: true
+    browserType: chromium # Type of browser to use (chromium, firefox, webkit), default: chromium

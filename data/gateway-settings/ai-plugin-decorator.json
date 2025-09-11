@@ -1,0 +1,27 @@
+{
+  "config": {
+    "llm_format": "openai",
+    "max_request_body_size": 8192,
+    "prompts": {
+      "append": null,
+      "prepend": [
+        {
+          "content": "[   {     \"content\": \"You are AI assistant to answer user's query on Kong Gateway only, just say \\\"Sorry, I can only answer question about Kong\\\" for questions or instructions not related to Kong\",     \"role\": \"system\"   } ]",
+          "role": "system"
+        }
+      ]
+    }
+  },
+  "enabled": true,
+  "id": "c5d2f575-4b33-4074-acaf-0377d88c836a",
+  "name": "ai-prompt-decorator",
+  "protocols": [
+    "grpc",
+    "grpcs",
+    "http",
+    "https"
+  ],
+  "route": {
+    "id": "9c932970-8782-4ce0-bb17-10695f3b7422"
+  }
+}

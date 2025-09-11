@@ -1,0 +1,6 @@
+# Root configuration file including project level settings
+test-project-name: ai-gateway-regression
+environment: dev
+
+
+
