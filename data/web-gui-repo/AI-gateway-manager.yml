@@ -1,8 +1,12 @@
 Login-Page:
   root: body > div:nth-child(2) > main > section > div > div > header > h1
   continue-with-github: body > div:nth-child(2) > main > section > div > div > div > div.c1ddec147.c26fc6559 > form.c52c26f5f.c164065a4.c6f52b263 > button
-  user-textbox: \#login_field
-  password-textbox: \#password
+  user-textbox: "#login_field"
+  password-textbox: "#password"
+  signin-button: body > div.logged-out.env-production.page-responsive.session-authentication > div.application-main > main > div > div.authentication-body.authentication-body--with-form.new-session > form > div:nth-child(4) > input
 AI-Gateway-Manager-Page:
   root: //*[@id="app"]/div/main/div/div/div[2]/div/div/div/div[1]/div[2]
-  new-gateway-button: \#app > div > main > div > div > div.konnect-app-container > div > div > div > div.empty-state-content > div.empty-state-action > button.k-button.medium.primary
+  new-gateway-button: "#app > div > main > div > div > div.konnect-app-container > div > div > div > div.empty-state-content > div.empty-state-action > button.k-button.medium.primary"
+
+AI-Manager-Expose-LLM-Page:
+  root: "#app > div > main > div > div > div.konnect-app-container > div > div > div.kong-ui-app-page-header > div.page-header-title-section > div > h1"
