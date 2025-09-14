@@ -33,15 +33,16 @@ This project is a BDD functional regression test suite implemented using Java an
 
 ### Agents Configuration Example
 ```yaml
-- !ai.gateway.regression.config.RestAgentConfig
-    name: GatewayRestAgent
-    requestAuth:
-      !ai.gateway.regression.auth.BearerToken
-        token: your_token_here # Replace with your actual token
-    baseUrl: http://localhost:8000 # Base URL for the API, default: http://localhost:8080
+- !io.kiwi.config.api.RestAgentConfig
+   name: GatewayRestAgent
+   requestAuth:
+           !io.kiwi.security.auth.BearerToken
+      token: your_token_here # Replace with your encrypted actual token
+   baseUrl: http://localhost:8000 # Base URL for the API, default: http://localhost:8080
 ```
 
 ## Example Run Reports
-- **Summary Report**: ![Summary Report](docs/images/Sample-Report-Summary.png)
-- **Detailed Report**: ![Detailed Report](docs/images/Sample-Report-Detail.png)
+- **Summary Report for sample scenario of plugin AI Guard**: ![Summary Report](docs/images/Sample-Report-Summary.png)
+- **Detailed Report for sample scenario of plugin AI Guard**: ![Detailed Report](docs/images/Sample-Report-Detail.png)
+- **Detailed Report for sample scenario of Konnect Login**: ![Detailed Report](docs/images/Sample-Report-Detail-Login Konnect.png)
 
