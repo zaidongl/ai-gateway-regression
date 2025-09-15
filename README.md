@@ -44,5 +44,5 @@ This project is a BDD functional regression test suite implemented using Java an
 ## Example Run Reports
 - **Summary Report for sample scenario of plugin AI Guard**: ![Summary Report](docs/images/Sample-Report-Summary.png)
 - **Detailed Report for sample scenario of plugin AI Guard**: ![Detailed Report](docs/images/Sample-Report-Detail.png)
-- **Detailed Report for sample scenario of Konnect Login**: ![Detailed Report](docs/images/Sample-Report-Detail-Login Konnect.png)
+- **Detailed Report for sample scenario of Konnect Login**: ![Detailed Report](docs/images/Sample-Report-Detail-LoginKonnect.png)
 
